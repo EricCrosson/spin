@@ -1,8 +1,6 @@
 FROM admiringworm/ubuntu
 MAINTAINER Eric Crosson (eric.s.crosson@utexas.edu)
 
-ENTRYPOINT [ "/bin/bash" ]
-
 RUN apt-get update -qq && apt-get install -qq -y \
     git \
     bison \
