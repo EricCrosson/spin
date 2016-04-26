@@ -1,5 +1,6 @@
 Promela / Spin
 ==============
+![Available via dockerhub][dockerbadge]
 
 This container provides a [docker] environment for [Promela] language files using
 the [Spin verification tool].
@@ -20,3 +21,4 @@ This container uses admiringworm/ubuntu as a base.
   [spin 6.4.5]: http://spinroot.com/spin/Man/README.html
   [docker]: https://www.docker.com/
   [admiringworm/ubuntu]: https://hub.docker.com/r/admiringworm/ubuntu/
+  [dockerbadge]: http://dockeri.co/image/hamroctopus/spin
