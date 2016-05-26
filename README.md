@@ -1,6 +1,7 @@
 Promela / Spin
 ==============
 ![Available via dockerhub][dockerbadge]
+[![](https://imagelayers.io/badge/hamroctopus/spin:latest.svg)](https://imagelayers.io/?images=hamroctopus/spin:latest 'Get your own badge on imagelayers.io')
 
 This container provides a [docker] environment for [Promela] language files using
 the [Spin verification tool].
