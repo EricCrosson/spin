@@ -1,4 +1,4 @@
-FROM admiringworm/ubuntu
+FROM admiringworm/ubuntu:trusty
 MAINTAINER Eric Crosson (eric.s.crosson@utexas.edu)
 
 

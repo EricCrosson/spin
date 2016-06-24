@@ -1,6 +1,6 @@
 Promela / Spin
 ==============
-
+[![Build Status](https://travis-ci.org/EricCrosson/spin.svg?branch=travis-ci)](https://travis-ci.org/EricCrosson/spin)
 [![](https://imagelayers.io/badge/hamroctopus/spin:latest.svg)](https://imagelayers.io/?images=hamroctopus/spin:latest)
 [![](https://img.shields.io/badge/docker-ready-blue.svg)](https://hub.docker.com/r/hamroctopus/spin/)
 [![](https://img.shields.io/docker/pulls/hamroctopus/spin.svg?maxAge=2592000)](https://hub.docker.com/r/hamroctopus/spin/)
@@ -39,7 +39,7 @@ Invoking this container without arguments will run the standard cmake
 build routine, i.e.
 
 ``` bash
-docker run -v $(pwd):/data hamroctopus/spin
+docker run -v $(pwd):/data hamroctopus/spin:6.4.5
 ```
 
 will tell the container to mount the current directory and execute the
@@ -58,7 +58,7 @@ If your build pattern deviates from the above, pass your custom
 instructions as arguments
 
 ``` bash
-docker run -v $(pwd):/data hamroctopus/spin step1 && step2 && step3
+docker run -v $(pwd):/data hamroctopus/spin:6.4.5 "step1 && step2 && step3"
 ```
 
   [Spin verification tool]: http://spinroot.com/spin/whatispin.html
